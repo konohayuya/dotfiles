@@ -1,5 +1,5 @@
 # fish-shell
-mkdir -p ~/.config/functions/
+mkdir -p ~/.config/fish/functions/
 ln -sfn ${DOTFILES_DIR}/.config/fish/config.fish ~/.config/fish/
 ln -sfn ${DOTFILES_DIR}/.config/fish/functions/fish_prompt.fish ~/.config/fish/functions/
 ln -sfn ${DOTFILES_DIR}/.config/fish/functions/la.fish ~/.config/fish/functions/
