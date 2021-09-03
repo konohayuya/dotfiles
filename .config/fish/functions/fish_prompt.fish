@@ -7,6 +7,7 @@ function fish_prompt --description 'Write out the prompt'
     -colorize-hostname \
     -numeric-exit-codes \
     -cwd-max-dir-size 4 \
+    -alternate-ssh-icon \
     -shell-var PROMPT_USER \
     -truncate-segment-width 3 \
     -modules venv,vgo,shell-var,user,host,ssh,cwd,git,hg,jobs,exit,root
