@@ -2,7 +2,7 @@
 # apt update etc..
 sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y  && sudo apt autoremove -y
 
-sudo apt install -y curl vim fish httpie bat hexyl
+sudo apt install -y curl vim fish httpie bat unzip
 
 curl -fLo exa.zip \
   "https://github.com/ogham/exa/releases/download/v0.10.0/exa-linux-x86_64-v0.10.0.zip" && \
