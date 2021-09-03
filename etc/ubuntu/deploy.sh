@@ -9,6 +9,10 @@ ln -sfn ${DOTFILES_DIR}/.config/fish/functions/uu.fish ~/.config/fish/functions/
 fish ${DOTFILES_DIR}/etc/fish/color.fish
 fish ${DOTFILES_DIR}/etc/fish/powerline-go-extra.fish
 
+# alias
+fish -c 'alias bat batcat'
+fish -c 'funcsave bat'
+
 # httpie
 mkdir -p ~/.httpie
 ln -sfn ${DOTFILES_DIR}/.httpie/config.json ~/.httpie/
