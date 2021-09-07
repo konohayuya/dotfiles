@@ -17,5 +17,6 @@ ln -sfn ${DOTFILES_DIR}/.httpie/config.json ~/.httpie/
 ln -sfn ${DOTFILES_DIR}/.vimrc ~/.vimrc
 
 # git
-grep -q "~/.config/git/myconfig" ~/.config/git/config || ln -sfn ${DOTFILES_DIR}/.config/git/myconfig ~/.config/git/myconfig && \
+mkdir -p ~/.cofig/git
+grep -sq "~/.config/git/myconfig" ~/.config/git/config || ln -sfn ${DOTFILES_DIR}/.config/git/myconfig ~/.config/git/myconfig && \
   printf "[include]\n\tpath = ~/.config/git/myconfig" >> ~/.config/git/config
